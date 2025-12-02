@@ -2,9 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import ArticleListPage from "./pages/ArticlesList";
+import ArticleListPage from "./pages/ArticlesListPage";
 import ArticlePage from "./pages/ArticlePage";
-import NavBar from "./NavBar";
 import Layout from "./Layout";
 
 const routes = [
@@ -25,7 +24,7 @@ const routes = [
         element: <ArticleListPage />,
       },
       {
-        path: "articles/individual",
+        path: "articles/:name",
         element: <ArticlePage />,
       },
     ],
