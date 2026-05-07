@@ -5,12 +5,25 @@
 }
 body {
     background: black;
+    padding: 3rem;
+    color: white;
+}
+main {
+    text-align: center;
+}
+.sub-container {
+    width: 30%;
+    padding: 1rem 2rem;
+    background: rgb(240, 50, 247);
+
+    h3 {
+        font-size: 2rem;
+    }
 }
 a {
     height: 5rem;
     width: 6rem;
     font-size: 3rem;
     color: white;
-    padding: 1rem 2rem;
-    background: rgb(240, 50, 247);
+   
 }
